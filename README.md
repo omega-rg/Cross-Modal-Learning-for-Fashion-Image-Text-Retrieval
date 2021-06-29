@@ -1,10 +1,28 @@
 # Image_Text_Retrieval
 
 ## Motivation
-Cross-modal learning involves information obtained from morethan one modality. Fashion clothing industry is one such field whereproduct retrieval based on multiple modalities such as image and text has become important. In the online fashion industry, being able to search for a product that matches either an image queryor a text query is in high demand
+Cross-modal learning involves information obtained from more than one modality. Fashion clothing industry is one such field where product retrieval based on multiple modalities such as image and text has become important. In the online fashion industry, being able to search for a product that matches either an image query or a text query is in high demand.
+
+![alt text](../assets/retrieval.png)
 
 ## Our Work
-In this work, we implement different cross-modal learning schemes such as Siamese Network, Correlational Network and Deep Cross-Modal Projection Learning model and study their performance. We also propose a modified Deep Cross-Modal Projection Learning model that uses a different image feature extractor. We evaluate the model’s performance on image-text retrieval on afashion clothing dataset.
+In this work, we implement different cross-modal learning schemes such as Siamese Network, Correlational Network and Deep Cross-Modal Projection Learning model and study their performance. We also propose a modified Deep Cross-Modal Projection Learning model that uses a different image feature extractor. We evaluate the model’s performance on image-text retrieval on a fashion clothing dataset.
+
+### Research Paper 
+We have written a research paper in the ACM format detailing all aspects of our work. 
+Link to paper: [Click_here](https://drive.google.com/file/d/1IhMKgzaUeqUg77lBVWRy9jtksuY6vYnu/view?usp=sharing)
+
+### Presentation Slides
+Link to the slides for final project presentation: [Click_here](https://drive.google.com/file/d/19Q8W4H52BMJBjPYj_yD0B2o9nXVaooAX/view?usp=sharing)
+
+### Videos
+
+Link to video explaining model architectures and results:
+[Click_here](https://drive.google.com/file/d/19Q8W4H52BMJBjPYj_yD0B2o9nXVaooAX/view?usp=sharing)
+
+
+Link to video showing the webapp demo:
+[Click_here](https://drive.google.com/file/d/1FuU6j674pDJKMWXJhVhkiLFbXbJL5eCC/view?usp=sharing)
 
 ## Instructions to run the code
 
@@ -27,7 +45,7 @@ Siamese Network is a neural network architecture that contains two or more ident
 <br>
 
 #### *Network Architecture*
-![alt text](assets/siamese.png)
+![alt text](../assets/siamese.png)
 
 <br>
 
@@ -37,12 +55,12 @@ Correlational Network is an autoencoder based approach that explicitly maximises
 <br>
 
 #### *Network Architecture*
-![alt text](assets/correlational.png)
+![alt text](../assets/correlational.png)
 
 <br>
 
 ### DEEP CMPL Network
-Cross-Modal Projection Learning includes Cross-Modal Pro-jection Matching (CMPM) loss for learning discriminative image-text embeddings. This novel image-text matching loss minimizesthe relative entropy between the projection distributions and thenormalized matching distributions. 
+Cross-Modal Projection Learning includes Cross-Modal Projection Matching (CMPM) loss for learning discriminative image-text embeddings. This novel image-text matching loss minimizes the relative entropy between the projection distributions and thenormalized matching distributions. 
 
 #### Modified Deep CMPL
 We modified the Deep Cross-Modal Projection Learning modelby using the EfficientNet architecture instead of MobileNet as the image feature extractor. EfficientNet is a recently pro-posed convolutional neural architecture which outperforms other state-of-the-art convolutional neural networks both in terms of efficiency and accuracy.
@@ -50,7 +68,7 @@ We modified the Deep Cross-Modal Projection Learning modelby using the Efficient
 <br>
 
 #### *Network Architecture*
-![alt text](assets/deepcmpl.png)
+![alt text](../assets/deepcmpl.png)
 
 <br>
 
@@ -61,16 +79,18 @@ We experimented different combinations of text and image feature extractors for 
 * Experiment 2: Correlational Network
 * Experiment 3: Deep CMPL with MobileNet
 * Experiment 4: Deep CMPL with EfficientNet on Indian Fashion
-* Experiment 5: Deep CMPL with EfficientNet on DeepFash-ion
+* Experiment 5: Deep CMPL with EfficientNet on DeepFashion
 
 <br>
 The metrics obtained from these experiments are as follows:
 <br>
 
-![alt text](assets/i2t.PNG)
+![alt text](../assets/i2t.PNG)
 
-![alt text](assets/t2i.PNG)
+![alt text](../assets/t2i.PNG)
 
+
+## References
 
 
 
