@@ -13,7 +13,7 @@ We have written a research paper in the ACM format detailing all aspects of our 
 Link to paper: [Click_here](https://drive.google.com/file/d/1IhMKgzaUeqUg77lBVWRy9jtksuY6vYnu/view?usp=sharing)
 
 ### Presentation Slides
-Link to the slides for final project presentation: [Click_here](https://drive.google.com/file/d/19Q8W4H52BMJBjPYj_yD0B2o9nXVaooAX/view?usp=sharing)
+Link to the slides for final project presentation: [Click_here](https://drive.google.com/file/d/1DMOiNq-IsfX6He2XszFinAchVx_Cy4BU/view?usp=sharing)
 
 ### Videos
 
